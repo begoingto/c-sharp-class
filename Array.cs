@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DoubleDivision
 {
-    internal class Array
+    internal class ArrayClass
     {
         static void Main()
         {
@@ -22,6 +22,11 @@ namespace DoubleDivision
 
             foreach (double item in b)
                 Console.WriteLine(item);
+
+            Console.WriteLine("Array No reverse "+string.Join(",",a));
+            //Array.Sort(a);
+            Array.Reverse(a);
+            Console.WriteLine("Array reverse "+string.Join(",", a));
             Console.ReadKey();
         }
     }
