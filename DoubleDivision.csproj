@@ -49,6 +49,7 @@
     <Compile Include="loanDownMoneyII.cs" />
     <Compile Include="loanMoney.cs" />
     <Compile Include="MoneyLoan.cs" />
+    <Compile Include="MountainRange.cs" />
     <Compile Include="NestedLoop.cs" />
     <Compile Include="PrimeNumber.cs" />
     <Compile Include="Program.cs" />

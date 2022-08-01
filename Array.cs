@@ -8,7 +8,7 @@ namespace DoubleDivision
 {
     internal class ArrayClass
     {
-        static void Main()
+        static void MainC()
         {
             int[] a = {1,2, 3 };
             double[] b = {1.5,2.6,3.8};
