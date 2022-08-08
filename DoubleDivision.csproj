@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArmStrongNumber.cs" />
+    <Compile Include="ArmstrongNUmberII.cs" />
     <Compile Include="Array.cs" />
     <Compile Include="Fibonaci.cs" />
     <Compile Include="LoanDownMoney.cs" />

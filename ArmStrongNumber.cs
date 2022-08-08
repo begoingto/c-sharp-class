@@ -8,7 +8,7 @@ namespace DoubleDivision
 {
     internal class ArmStrongNumber
     {
-        static void Main()
+        static void MainAA()
         {
             int i,sum=0;
             Console.Write("Enter value of n=");
