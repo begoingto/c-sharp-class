@@ -8,7 +8,7 @@ namespace DoubleDivision
 {
     internal class MountainRange
     {
-        static void Main()
+        static void MainF()
         {
             int a;
             Console.Write("Enter n = ");
@@ -34,7 +34,7 @@ namespace DoubleDivision
                     }
                     else
                     {
-                        if (n.Last() > n[i-1])
+                        if (n[n.Length-1] > n[i-1])
                         {
                             t++;
                         }
@@ -48,7 +48,7 @@ namespace DoubleDivision
                     }
                 }
 
-                Console.WriteLine($" last value 1={n.Last()} value 2={n[n.Length-1]}");
+                //Console.WriteLine($" last value 1={n.Last()} value 2={n[n.Length-1]}");
             }
             Console.WriteLine(t);
             Console.ReadKey();

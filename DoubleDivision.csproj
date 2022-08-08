@@ -43,12 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArmStrongNumber.cs" />
     <Compile Include="Array.cs" />
     <Compile Include="Fibonaci.cs" />
     <Compile Include="LoanDownMoney.cs" />
     <Compile Include="loanDownMoneyII.cs" />
     <Compile Include="loanMoney.cs" />
     <Compile Include="MoneyLoan.cs" />
+    <Compile Include="MontainerRangeII.cs" />
     <Compile Include="MountainRange.cs" />
     <Compile Include="NestedLoop.cs" />
     <Compile Include="PrimeNumber.cs" />
