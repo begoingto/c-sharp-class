@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddElementArrayList.cs" />
+    <Compile Include="AmicableNumber.cs" />
     <Compile Include="ArmStrongNumber.cs" />
     <Compile Include="ArmstrongNUmberII.cs" />
     <Compile Include="Array.cs" />
@@ -54,9 +56,12 @@
     <Compile Include="MontainerRangeII.cs" />
     <Compile Include="MountainRange.cs" />
     <Compile Include="NestedLoop.cs" />
+    <Compile Include="NoDuplicateValue.cs" />
     <Compile Include="PrimeNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomNumberList.cs" />
+    <Compile Include="UniqueNumber.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

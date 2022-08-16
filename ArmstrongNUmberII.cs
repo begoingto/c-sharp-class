@@ -8,17 +8,14 @@ namespace DoubleDivision
 {
     internal class ArmstrongNUmberII
     {
-        static void Main()
+        static void MainCC()
         {
-            for (int i = 0; i < 10000; i++)
+            for (int i = 0; i <= 10000; i++)
             {
-                int d = i.ToString().Length;
-                char[] ch = i.ToString().ToCharArray();
                 double sum = 0;
-                foreach (char item in ch)
+                foreach (char item in i.ToString().ToCharArray())
                 {
-                    int num = (int)item - 48;
-                    sum += Math.Pow(num, d);
+                    sum += Math.Pow(int.Parse(item.ToString()), i.ToString().Length);
                 }
                 if(sum==i)
                     Console.WriteLine(i);

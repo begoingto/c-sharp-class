@@ -10,7 +10,7 @@ namespace DoubleDivision
     {
         static void MainN()
         {
-            int n,counter=0,star;
+            int n,star; //counter=0
             Console.Write("Enter n=");
             star = int.Parse(Console.ReadLine());
             /*for (int i = 1; i <= n; i++)
