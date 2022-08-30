@@ -8,7 +8,7 @@ namespace DoubleDivision
 {
     internal class RandomNumberList
     {
-        static void Main()
+        static void MainXG()
         {
             int n;
             List<int> list = new List<int>();
